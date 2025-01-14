@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Remove default focus outline and link styles */
+* {
+  @apply focus:outline-none;
+}
+
+a {
+  @apply no-underline;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Custom focus styles for accessibility */
+a:focus-visible, button:focus-visible {
+  @apply ring-2 ring-accent ring-offset-1 ring-offset-background;
+}
+
+/* Remove tap highlight on mobile */
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  @apply bg-background text-foreground;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { 
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.post-link {
+  @apply transform transition-all duration-300;
+  @apply border-b border-gray-800/50;
+  @apply py-6 first:pt-0 last:border-none;
+  animation: fadeIn 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+.post-link article {
+  @apply px-4;
+}
+
+.post-link:hover {
+  @apply -translate-y-1;
+}
+
+.post-date {
+  @apply text-[11px] text-gray-500 font-medium;
+}
+
+.post-title {
+  @apply text-xl font-bold mb-2 mt-1;
+}
+
+.tag {
+  @apply text-accent bg-accent/10 px-1.5 py-0.5 rounded-full text-[11px] font-medium tracking-tight;
+  @apply transition-all duration-300 hover:bg-accent/20;
+}
+
+.post-tags {
+  @apply flex gap-2 mb-2;
+}
+
+.post-description {
+  @apply text-gray-400 text-sm;
+}
+
+.read-more {
+  @apply text-accent inline-flex items-center mt-3 text-sm;
+  @apply transform transition-all duration-300;
+}
+
+.group:hover .read-more {
+  @apply translate-x-1;
+}
+
+/* Back button animation */
+.back-button {
+  animation: slideIn 0.5s ease-out;
+  @apply transform transition-all duration-300;
+}
+
+.back-button:hover {
+  @apply -translate-x-1;
+}
+
+/* Article content animation */
+.article-content {
+  animation: fadeIn 0.7s ease-out;
+}
+
+/* Logo gradient styling */
+.logo-gradient {
+  filter: brightness(0) saturate(100%) invert(83%) sepia(31%) saturate(1033%) hue-rotate(86deg) brightness(97%) contrast(92%);
+}
+
+.logo-gradient path {
+  fill: url(#accent-gradient);
+}
+
+@keyframes gradient {
+  0% {
+    stop-color: #4ade80;
+  }
+  50% {
+    stop-color: #86efac;
+  }
+  100% {
+    stop-color: #4ade80;
+  }
+}
+
+#accent-stop-1 {
+  animation: gradient 4s ease infinite;
+}
+
+#accent-stop-2 {
+  animation: gradient 4s ease infinite reverse;
+}
+
+/* Remove focus outline while keeping it accessible for keyboard navigation */
+a:focus-visible {
+  outline: 2px solid #5865F2;
+  outline-offset: 2px;
+}
+
+a:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.social-card {
+  position: relative;
+  overflow: hidden;
+}
