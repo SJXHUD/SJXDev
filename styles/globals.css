@@ -116,7 +116,7 @@ body {
 
 /* Logo gradient styling */
 .logo-gradient {
-  filter: brightness(0) saturate(100%) invert(83%) sepia(31%) saturate(1033%) hue-rotate(86deg) brightness(97%) contrast(92%);
+  /* Removed color overlay filter */
 }
 
 .logo-gradient path {
