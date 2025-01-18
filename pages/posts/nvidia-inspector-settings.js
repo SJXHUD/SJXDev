@@ -36,6 +36,7 @@ export default function OptimizedNvidiaInspector() {
             <span className="tag">GUIDE</span>
             <span className="tag">PC-TWEAKING</span>
             <span className="tag">GPU-NVIDIA</span>
+            <span className="tag">DOWNLOAD</span>
           </div>
         </header>
 
