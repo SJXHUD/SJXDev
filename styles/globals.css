@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Remove default focus outline and link styles */
 * {
   @apply focus:outline-none;
 }
@@ -12,12 +11,10 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
-/* Custom focus styles for accessibility */
 a:focus-visible, button:focus-visible {
   @apply ring-2 ring-accent ring-offset-1 ring-offset-background;
 }
 
-/* Remove tap highlight on mobile */
 html {
   -webkit-tap-highlight-color: transparent;
 }
@@ -26,7 +23,6 @@ body {
   @apply bg-background text-foreground;
 }
 
-/* Animations */
 @keyframes fadeIn {
   from { 
     opacity: 0;
@@ -99,7 +95,6 @@ body {
   @apply translate-x-1;
 }
 
-/* Back button animation */
 .back-button {
   animation: slideIn 0.5s ease-out;
   @apply transform transition-all duration-300;
@@ -109,14 +104,11 @@ body {
   @apply -translate-x-1;
 }
 
-/* Article content animation */
 .article-content {
   animation: fadeIn 0.7s ease-out;
 }
 
-/* Logo gradient styling */
 .logo-gradient {
-  /* Removed color overlay filter */
 }
 
 .logo-gradient path {
@@ -143,7 +135,6 @@ body {
   animation: gradient 4s ease infinite reverse;
 }
 
-/* Remove focus outline while keeping it accessible for keyboard navigation */
 a:focus-visible {
   outline: 2px solid #5865F2;
   outline-offset: 2px;
