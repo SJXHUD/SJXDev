@@ -40,8 +40,6 @@ export default function LegendaryGuide() {
         </header>
 
         <div className="space-y-3 text-sm">
-          <p className="font-medium text-lg">Installation and Setup:</p>
-          
           <ol className="space-y-3">
             <li>
               <strong>Install Legendary</strong>
