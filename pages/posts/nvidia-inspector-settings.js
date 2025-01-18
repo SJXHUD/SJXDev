@@ -41,8 +41,6 @@ export default function OptimizedNvidiaInspector() {
         </header>
 
         <div className="space-y-3 text-sm">
-          <p className="font-medium text-lg">Step-by-Step Guide:</p>
-
           <ol className="space-y-3">
             <li>
               <span className="text-accent font-medium">1.</span> Download my Nvidia Inspector profile:
