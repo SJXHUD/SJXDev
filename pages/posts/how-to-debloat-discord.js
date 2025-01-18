@@ -40,8 +40,6 @@ export default function DiscordDebloat() {
         </header>
 
         <div className="space-y-3 text-sm">
-          <p className="font-medium text-lg">Update Notes:</p>
-          
           <ol className="space-y-3">
             <li>
               Press <code className="bg-gray-800/50 px-1.5 py-0.5 rounded text-[13px]">Windows + R</code>, type <code className="bg-gray-800/50 px-1.5 py-0.5 rounded text-[13px]">%LOCALAPPDATA%</code>, 
@@ -68,7 +66,7 @@ export default function DiscordDebloat() {
             </li>
             
             <li>
-              Keep only the language pack you use. So for example if you use english only keep 
+              Keep only the language pack you use. So for example if you use English, only keep 
               <code className="bg-gray-800/50 px-1.5 py-0.5 rounded text-[13px]">en-US.pak</code>.
             </li>
           </ol>
