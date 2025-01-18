@@ -8,7 +8,7 @@ export default function Home() {
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedTags, setSelectedTags] = useState([])
 
-  const allTags = ['GUIDE', 'PC-TWEAKING', 'DEBLOATING', 'GAMING', 'TIPS', 'DOWNLOAD', 'DISCORD']
+  const allTags = ['GUIDE', 'PC-TWEAKING', 'DEBLOATING', 'GAMING', 'DOWNLOAD', 'GPU-NVIDIA', 'DOWNLOAD', 'CPU']
 
   const posts = [
     {
@@ -31,6 +31,13 @@ export default function Home() {
       tags: ['GUIDE', 'DEBLOATING', 'DISCORD'],
       description: 'A step-by-step guide on removing unnecessary modules and locales from Discord to improve performance.',
       slug: 'how-to-debloat-discord'
+    },
+    {
+      date: '2025-01-17',
+      title: 'Best Nvidia Inspector Settings',
+      tags: ['GUIDE', 'PC-TWEAKING', 'GPU-NVIDIA', 'DOWNLOAD'],
+      description: 'A step-by-step guide on using my Nvidia Profile Inspector settings to improve performance.',
+      slug: 'nvidia-inspector-settings'
     }
   ]
 
