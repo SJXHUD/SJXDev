@@ -159,7 +159,7 @@ export default function Home() {
             </Link>
           ))}
           {filteredPosts.length === 0 && (
-            <p className="text-center text-gray-500 py-8">No posts found matching your criteria</p>
+            <p className="text-center text-gray-500 py-8">No posts found</p>
           )}
         </div>
       </main>
