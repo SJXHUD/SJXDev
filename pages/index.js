@@ -62,7 +62,7 @@ export default function Home() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-6">
       <Head>
-        <title>SJX.dev</title>
+        <title>SJXDev</title>
         <meta name="description" content="PC Tweaking & Optimization Guides" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
