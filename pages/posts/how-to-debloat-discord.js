@@ -6,7 +6,7 @@ export default function DiscordDebloat() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-6">
       <Head>
-        <title>How to Debloat and Strip Discord | SJX.dev</title>
+        <title>How to Debloat and Strip Discord | SJXDev</title>
         <meta name="description" content="A guide on how to debloat Discord by removing unnecessary modules and locales" />
       </Head>
 
