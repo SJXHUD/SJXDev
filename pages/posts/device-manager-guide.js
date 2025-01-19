@@ -6,7 +6,7 @@ export default function DeviceManagerGuide() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-6">
       <Head>
-        <title>Device Manager Optimization Guide | SJX.dev</title>
+        <title>Device Manager Optimization Guide | SJXDev</title>
         <meta name="description" content="A comprehensive guide to optimizing Windows Device Manager for better system performance" />
       </Head>
 
