@@ -8,7 +8,7 @@ export default function Home() {
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedTags, setSelectedTags] = useState([])
 
-  const allTags = ['GUIDE', 'PC-TWEAKING', 'DEBLOATING', 'GAMING', 'DOWNLOAD', 'GPU-NVIDIA', 'DOWNLOAD', 'CPU']
+  const allTags = ['GUIDE', 'PC-TWEAKING', 'DEBLOATING', 'GAMING', 'DOWNLOAD', 'GPU-NVIDIA', 'CPU']
 
   const posts = [
     {
