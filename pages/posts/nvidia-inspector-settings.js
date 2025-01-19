@@ -6,7 +6,7 @@ export default function OptimizedNvidiaInspector() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-6">
       <Head>
-        <title>Optimized Nvidia Inspector Profile | SJX.dev</title>
+        <title>Optimized Nvidia Inspector Profile | SJXDev</title>
         <meta name="description" content="A step-by-step guide on using my Nvidia Profile Inspector settings to improve performance." />
       </Head>
 
