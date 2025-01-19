@@ -6,7 +6,7 @@ export default function LegendaryGuide() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-6">
       <Head>
-        <title>How to Use Legendary Instead of Epic Games Launcher | SJX.dev</title>
+        <title>How to Use Legendary Instead of Epic Games Launcher | SJXDev</title>
         <meta name="description" content="A guide on how to use Legendary as a lightweight alternative to the Epic Games Launcher" />
       </Head>
 
