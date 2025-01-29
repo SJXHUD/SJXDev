@@ -6,3 +6,4 @@ By making this project open-source, I aim to be more transparent with my readers
 ## Contact
 If you have any questions, suggestions, or just want to connect:
 - Discord : @SJXHUD
+- Telegram : @freesiyah
